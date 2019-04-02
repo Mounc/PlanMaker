@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "125247231476",
+    "firebase_url": "https://planmaker-170018.firebaseio.com",
+    "project_id": "planmaker-170018",
+    "storage_bucket": "planmaker-170018.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125247231476:android:6e57bb120f2bd7b8",
+        "android_client_info": {
+          "package_name": "com.example.taehoon.planmaker_v2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "125247231476-r4ogq4tlnbj0113ltj7uidjjecr3lj3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw9T2nqp9zB37UffP3SOJpuATEREEGcd0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_login_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.taehoon.planmaker_v2.Others.LoginScreenActivity"
+
+    >
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="227dp"
+                android:layout_height="165dp"
+                android:layout_alignTop="@+id/edit_password"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="42dp"
+                app:srcCompat="@drawable/calender"
+                tools:layout_editor_absoluteX="101dp"
+                tools:layout_editor_absoluteY="43dp" />
+
+            <TextView
+                style="@style/textView_style"
+                android:text="Plan Maker"/>
+
+            <EditText
+                android:id="@+id/edit_userid"
+                style="@style/editText_style"
+
+                android:inputType="textEmailAddress"
+                android:hint="Username"
+                android:textColor="#000000"
+                android:textColorHint="#6F7A8B"/>
+
+            <EditText
+                android:id="@+id/edit_password"
+                style="@style/editText_style"
+
+                android:inputType="textPassword"
+                android:hint="password"
+                android:textColor="#000000"
+                android:textColorHint="#6F7A8B"/>
+
+            <Button
+                android:id="@+id/btn_login"
+                style="@style/button_style"
+                android:layout_alignBaseline="@+id/btn_sign"
+                android:layout_alignBottom="@+id/btn_sign"
+                android:layout_alignStart="@+id/imageView"
+                android:text="Log In"
+                tools:layout_editor_absoluteX="148dp"
+                tools:layout_editor_absoluteY="418dp"
+                />
+
+            <Button
+                android:id="@+id/btn_sign"
+                style="@style/button_style"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:layout_toEndOf="@+id/btn_login"
+                android:text="Not a member?\nSign In"
+                tools:layout_editor_absoluteX="236dp"
+                tools:layout_editor_absoluteY="473dp" />
+
+        </LinearLayout>
+
+</RelativeLayout>
+
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Newbook.MakePlanActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/makeButtonBack"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left|end"
+                android:background="@color/clear"
+                android:padding="10dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Making Plan with Friends" />
+
+            <ImageButton
+                android:id="@+id/makeButton"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right|end"
+                android:background="@color/clear"
+                android:padding="10dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/next" />
+        </FrameLayout>
+
+        <com.example.taehoon.planmaker_v2.MainBase.CustomViewPager
+            android:id="@+id/makingviewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"></com.example.taehoon.planmaker_v2.MainBase.CustomViewPager>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/makingtab"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"></android.support.design.widget.TabLayout>
+    </FrameLayout>
+
+</LinearLayout>

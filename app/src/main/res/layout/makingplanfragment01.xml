@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/make_search_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SEARCH USER ID" />
+
+    </LinearLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/topview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Selected User" />
+
+            <ListView
+                android:id="@+id/make_selected_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Searched Users"
+                android:layout_below="@+id/make_selected_list" />
+
+            <ListView
+                android:id="@+id/make_search_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView2"/>
+
+        </RelativeLayout>
+
+</LinearLayout>

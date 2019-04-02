@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="noticeTime">
+        <item> No Alert </item>
+        <item> On Time </item>
+        <item> 5 Minutes Left </item>
+        <item> 10 Minutes Left </item>
+        <item> 30 Minutes Left </item>
+        <item> 1 Hour Left </item>
+        <item> 3 Hour Left </item>
+        <item> 6 Hour Left </item>
+        <item> 12 Hour Left </item>
+        <item> A Day Left </item>
+    </string-array>
+</resources>

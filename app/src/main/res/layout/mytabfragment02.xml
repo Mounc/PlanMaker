@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/secondTabToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+        <ImageButton
+            android:id="@+id/buttonBack"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginRight="40dp"
+            android:background="@color/clear"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/back" />
+
+        <ImageButton
+            android:id="@+id/buttonEdit"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginRight="40dp"
+            android:background="@color/clear"
+            android:padding="8dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/edit" />
+
+        <ImageButton
+            android:id="@+id/buttonDelete"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:scaleType="centerInside"
+            android:padding="8dp"
+            android:background="@color/clear"
+            android:src="@drawable/remove" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/secondView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/etitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="title"
+            android:textSize="30dp"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/eallday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="allday"
+            android:textSize="20dp"
+            android:gravity="center_vertical|right"/>
+
+        <TextView
+            android:id="@+id/estarttime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="starttime"
+            android:textSize="20dp"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/eendtime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="endtime"
+            android:textSize="20dp"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/erepeat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="repeat"
+            android:textSize="20dp"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/eplace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="place"
+            android:textSize="20dp"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/enoticetime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="noticetime"
+            android:textSize="20dp"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/ememo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="memo"
+            android:textSize="20dp"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/eweight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="weight"
+            android:textSize="20dp"
+            android:gravity="center_vertical"/>
+
+    </LinearLayout>
+</LinearLayout>

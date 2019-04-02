@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat">
+        <item> No Repeat </item>
+        <item> EveryDay </item>
+        <item> EveryWeek </item>
+        <item> EveryMonth </item>
+        <item> EveryYear </item>
+    </string-array>
+</resources>
